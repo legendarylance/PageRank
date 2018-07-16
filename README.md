@@ -19,3 +19,6 @@ Increasing alpha toward 1.0 increases website’s scores. However, it also incre
 The higher the alpha, the less randomness is involved. This means that the agent has less options for exploration, which results in longer conversion time. Alpha if like an exploration/exploitation rate (in reinforcement learning language). The higher the alpha, the smaller is the exploration rate, therefore, the slower is the conversion time. 
 Self-loops had high scores for top 3 website and more uniformed scores for the rest. For alpha values of .75 and .95, score distribution was not monotonically decreasing, where websites with lower ranking sometimes had higher scores. For alpha of .85 the distribution was monotonically decreasing. 
 Type 3 sink handling resulted in a more uniformed score distribution with no extreme values. As with self-loops, alpha values of .75 and .95 resulted in non-monotonically decreasing score distribution, whereas alpha of .85 resulted in monotonically decreasing score distribution. Looking at these graphs, I can now understand why alpha value of .85 was chosen by Google.
+
+## Main File
+pageRank.py
